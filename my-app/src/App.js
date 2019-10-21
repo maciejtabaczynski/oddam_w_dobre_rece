@@ -1,26 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, NavLink, Route, HashRouter} from 'react-router-dom';
+// import { Link, animateScroll as scroll } from "react-scroll";
 
-function App() {
+import Home from './components/Home';
+import Login from './components/Login';
+import Register from './components/Register';
+
+class App extends React.Component  {
+
+render () {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+     <HashRouter>
+      <>
+      <Router>
+          <nav className={"navLogin"}>
+            <ul>
+              <li>
+                 <NavLink to="/logowanie">
+                  Zaloguj
+                </NavLink>
+              </li>
+               <li>
+                  <NavLink to="/rejestracja">
+                  Zarejestruj się
+                  </NavLink>
+              </li>
+              </ul>
+            </nav>
+              <Route exact path="/" component={Home} />
+              <Route path="/logowanie" component={Login} />
+              <Route path="/rejestracja" component={Register} />
+        </Router>
+      </>
+    </HashRouter>
+  )
+};
 }
-
 export default App;

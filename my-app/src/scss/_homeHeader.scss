@@ -1,0 +1,63 @@
+.homeHeaderContainer {
+  display: flex;
+  height: 1000px;
+}
+
+.homeHeaderImg {
+  background-image: url("../assets/Home-Hero-Image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 50%;
+}
+
+.homeHeaderSection {
+  margin-top: 100px;
+  width: 50%;
+  height: 80vh;
+}
+
+
+.homeHeaderArticle p {
+  text-align: center;
+  font-size: 25px;
+  line-height: 40px;
+
+}
+
+.homeHeaderArticle img {
+  margin: 20px 150px;
+  
+}
+.navLogin {
+  text-align: right;
+  padding: 10px;
+}
+.navLogin a {
+  text-decoration: none;
+  margin: 30px;
+  font-size: 15px;
+}
+
+
+.homeHeaderButtons {
+  margin-top: 200px;
+  margin-right: 30px;
+}
+
+.homeHeaderButton {
+  width: 200px;
+  border: 1px solid $color-dark;
+
+}
+
+.homeHeaderButton a {
+  text-decoration: none;
+  font-size: 30px;
+  color: $color-dark;
+  text-transform: uppercase;
+  width: 200px;
+  text-align: center;
+  display: inline-block;
+}
