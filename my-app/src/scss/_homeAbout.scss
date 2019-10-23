@@ -1,0 +1,27 @@
+.HomeAbout {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  background-color: $color-bright;
+}
+
+.HomeAboutInfo {
+  width: 50%;
+  background-color: $color-bright;
+  text-align: center;
+  color: $color-dark;
+  margin: 100px 60px;
+  text-indent: 5%;
+}
+
+.HomeAboutInfo p {
+line-height: 30px;
+}
+.HomeAboutPattern {
+  margin: 20px;
+
+}
+
+.HomeAboutImg {
+  width: 50%;
+}

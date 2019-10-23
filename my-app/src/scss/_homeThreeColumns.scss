@@ -1,0 +1,35 @@
+.homeThreeColumns {
+  display: flex;
+  background-image: url(../assets/Three-Columns-Background.png);
+  height: 300px;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.homeThreeColumns > div {
+  text-align: center;
+  flex-direction: column;
+  width: 28%;
+  margin-right: 5%;
+  color: $color-dark;
+}
+
+.homeThreeColumns > div:first-of-type {
+
+  margin-left: 4%;
+}
+.homeThreeColumns > div:last-of-type {
+  margin-right: 0;
+}
+  
+.homeThreeColumns h1 {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.homeThreeColumns h2 {
+  text-transform: uppercase;
+  margin: 20px;
+  font-size: 20px;
+
+}

@@ -23,7 +23,7 @@ render () {
               </li>
                <li>
                   <NavLink to="/rejestracja">
-                  Zarejestruj się
+                  Załóż konto
                   </NavLink>
               </li>
               </ul>

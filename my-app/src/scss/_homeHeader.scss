@@ -1,6 +1,6 @@
 .homeHeaderContainer {
   display: flex;
-  height: 1000px;
+  height: 80vh;
 }
 
 .homeHeaderImg {
@@ -13,42 +13,66 @@
 }
 
 .homeHeaderSection {
-  margin-top: 100px;
+  margin-top: 130px;
   width: 50%;
   height: 80vh;
 }
 
-
 .homeHeaderArticle p {
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 40px;
 
 }
 
 .homeHeaderArticle img {
-  margin: 20px 150px;
+  margin: 30px 150px;
   
 }
 .navLogin {
-  text-align: right;
-  padding: 10px;
+  margin-top: 20px;
+  padding: 5px;
 }
 .navLogin a {
   text-decoration: none;
-  margin: 30px;
-  font-size: 15px;
+  margin: 5px;
+  font-size: 13px;
+}
+.navLogin a:visited
+  {
+  color: $color-dark;
+ }
+ .navLogin li:last-of-type {
+   border: 1px solid $color-yellow;
+ }
+
+.navLogin ul {
+  display: flex;
+}
+.navLogin ul li {
+justify-content: flex-end;
+list-style-type: none;
+padding: 5px;
 }
 
+.navLogin ul li:first-of-type {
+  margin-left: 85vw;
+}
 
 .homeHeaderButtons {
-  margin-top: 200px;
-  margin-right: 30px;
+  display: flex;
 }
 
 .homeHeaderButton {
-  width: 200px;
+  width: 308px;
+  height: 120px;
   border: 1px solid $color-dark;
+  background-color: #fff;
+  justify-content: space-around;
+  font-size: 0;
+  // margin-top: 20px;
+
+display: inline-block;
 
 }
 
@@ -60,4 +84,22 @@
   width: 200px;
   text-align: center;
   display: inline-block;
+}
+
+.navMenu ul {
+  display: flex;
+}
+
+.navMenu li {
+  justify-content: flex-end;
+  margin: 15px;
+  list-style: none;
+  padding: 10px;
+  font-size: 16px;
+
+}
+.navMenu li:first-of-type {
+  margin-left: 48vw;
+  border: 1px solid $color-dark;
+  padding: 10px 20px ;
 }

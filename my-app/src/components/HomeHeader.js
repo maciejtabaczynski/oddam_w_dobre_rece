@@ -8,6 +8,17 @@ class HomeHeader extends React.Component {
 
     return (
       <>
+        <nav className={"navMenu"}>
+          <ul>
+            <li>Start</li>
+            <li>O co chodzi?</li>
+            <li>O nas</li>
+            <li>Fundacja i organizacje</li>
+            <li>Kontakt</li>
+          </ul>  
+        </nav>       
+        
+
         <div className={"homeHeaderContainer"}>
             <div className={"homeHeaderImg"}></div>
 
