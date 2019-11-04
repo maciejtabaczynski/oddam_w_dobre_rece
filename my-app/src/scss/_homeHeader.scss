@@ -22,11 +22,10 @@
   text-align: center;
   font-size: 30px;
   line-height: 40px;
-
 }
 
 .homeHeaderArticle img {
-  margin: 30px 150px;
+  margin: 30px 200px;
   
 }
 .navLogin {
@@ -66,15 +65,10 @@ padding: 5px;
 }
 
 .homeHeaderButton {
-  width: 308px;
-  height: 120px;
+  padding: 20px 40px;
   border: 1px solid $color-dark;
   background-color: #fff;
   font-size: 0;
-  // margin-top: 20px;
-
-display: inline-block;
-
 }
 
 .homeHeaderButton a {

@@ -17,7 +17,7 @@
   color: $color-dark;
   justify-content: space-between;
   width: 800px;
-  margin-left: 250px;
+  margin-left: 25vw;
 }
 .HelpButton {
   padding: 10px;
@@ -27,6 +27,7 @@
   font-size: 24px;
   width: 200px;
   margin-top: 50px;
+  
 }
 .HelpButton:first-of-type {
   border: transparent;
@@ -43,7 +44,7 @@
   font-size: 21px;
 }
 .HelpOrganizations {
-  margin-left: 200px;
+  margin-left: 12vw;
 }
 .HelpOrganizations h3 {
   font-size: 20px;
@@ -51,7 +52,7 @@
   font-weight: lighter;
 }
 .HelpOrganizations h3 span {
- margin-left: 500px; 
+ margin-left: 50vw; 
 }
 .HelpOrganizationsCursive {
   font-family: $font-alt;
@@ -81,7 +82,7 @@
   .HelpPage:first-of-type {
   border: 1px solid $color-dark;
   background-color: transparent;
-
+  margin-left: 25vw;
   }
 
   .HelpPage:last-of-type {

@@ -4,6 +4,9 @@
   margin-top: 50px;
   background-color: $color-bright;
 }
+.HomeAboutInfo h2 {
+  margin-left: -3vw;
+}
 
 .HomeAboutInfo {
   width: 50%;
@@ -15,13 +18,23 @@
 }
 
 .HomeAboutInfo p {
-line-height: 30px;
+  line-height: 45px;
+  font-size: 22px;
+  width: 30vw;
+  margin-left: 6vw;
 }
 .HomeAboutPattern {
   margin: 20px;
+}
 
+.HomeAboutSignature {
+  width: 200px;
+  height: 100px;
+  margin-left: 30vw;
 }
 
 .HomeAboutImg {
   width: 50%;
+  background-position: center;
+  background-size: cover;
 }
