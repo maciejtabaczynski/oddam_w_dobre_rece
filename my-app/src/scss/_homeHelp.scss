@@ -1,0 +1,91 @@
+.HomeHelp {
+  margin: 50px auto;
+  width: 100vw;
+  text-align: center;
+  color: $color-dark;
+}
+.HomeHelp h2 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+.HomeHelp img {
+  margin-top: 20px;
+}
+
+.HelpPlaces {
+  display: flex;
+  color: $color-dark;
+  justify-content: space-between;
+  width: 800px;
+  margin-left: 250px;
+}
+.HelpButton {
+  padding: 10px;
+  border: 1px solid $color-dark;
+  color: $color-dark;
+  background-color: transparent;
+  font-size: 24px;
+  width: 200px;
+  margin-top: 50px;
+}
+.HelpButton:first-of-type {
+  border: transparent;
+}
+.HelpButton:last-of-type {
+  border: transparent;
+}
+
+.HelpIntro {
+  width: 600px;
+  text-align: center;
+  margin: 40px auto;
+  align-self: center;
+  font-size: 21px;
+}
+.HelpOrganizations {
+  margin-left: 200px;
+}
+.HelpOrganizations h3 {
+  font-size: 20px;
+  font-family: $font-alt;
+  font-weight: lighter;
+}
+.HelpOrganizations h3 span {
+ margin-left: 500px; 
+}
+.HelpOrganizationsCursive {
+  font-family: $font-alt;
+  font-weight: 100;
+  padding-bottom: 50px;
+  font-style: oblique;
+}
+
+.HelpPages {
+    display: flex;
+    color: $color-dark;
+    justify-content: center;
+    width: 800px;
+    margin-left: 250px;
+    margin-right: 20px;
+    color: $color-dark;
+    background-color: transparent;
+    font-size: 24px;
+    margin-top: 50px;
+  }
+
+  .HelpPage {
+    padding: 25px 20px;
+    font-size: 18px;
+  }
+
+  .HelpPage:first-of-type {
+  border: 1px solid $color-dark;
+  background-color: transparent;
+
+  }
+
+  .HelpPage:last-of-type {
+    border: transparent;
+    background-color: transparent;
+    padding-left: 40px;
+      }
